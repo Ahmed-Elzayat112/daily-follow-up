@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+    crossorigin="anonymous">
+    <title>aware</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="intro header py-3">
+        <div class="container">
+            <div class="text-center text-primary display-6 my-4">
+                daily follow up
+            </div>
+        </div>
+    </div>
+
+    <!-- score -->
+    <div class="result d-none bg-light py-4 text-center ">
+        <div class="container lead display-6">
+            <p>Your score is <span class="display-4 p-2 text-primary">0%</span> Hero</p>
+        </div>
+    </div>
+
+
+    <!-- form -->
+    <div class="quiz bg-primary p-3">
+        <div class="container">
+            <div class="my-4 text-white">
+                <h1>The habits....</h1>
+            </div>
+
+
+            <form class="quiz-form text-light">
+                <div class="my-2">
+                    <p class="lead font-weight-normal my-3">1. Did you pray today?</p>
+                    <div class="form-check text-white-70 my-2">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label class="form-check-label">Yes</label>
+                    </div>
+                    <div class="form-check text-white-70 my-2">
+                        <input type="radio" name="q1" value="B">
+                        <label class="form-check-label">No</label>
+                    </div>
+                </div>
+                
+                <div class="my-2">
+                    <p class="lead font-weight-normal my-3">2. Did you do exercises today?</p>
+                    <div class="form-check text-white-70 my-2">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label class="form-check-label">Yes</label>
+                    </div>
+                    <div class="form-check text-white-70 my-2">
+                        <input type="radio" name="q2" value="B">
+                        <label class="form-check-label">No</label>
+                    </div>
+                </div>
+                
+                <div class="my-2">
+                    <p class="lead font-weight-normal my-3">3. Did you read the Quran today?</p>
+                    <div class="form-check text-white-70 my-2">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label class="form-check-label">Yes</label>
+                    </div>
+                    <div class="form-check text-white-70 my-2">
+                        <input type="radio" name="q3" value="B">
+                        <label class="form-check-label">No</label>
+                    </div>
+                </div>
+
+                <div class="my-2">
+                    <p class="lead font-weight-normal my-3">4. Did you read a book today?</p>
+                    <div class="form-check text-white-70 my-2">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label class="form-check-label">Yes</label>
+                    </div>
+                    <div class="form-check text-white-70 my-2">
+                        <input type="radio" name="q4" value="B">
+                        <label class="form-check-label">No</label>
+                    </div>
+                </div>
+                
+                <div class="text-center">
+                    <input type="submit" class="btn btn-light" value="submit">
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
